@@ -1,16 +1,16 @@
 import { NgModule }						from '@angular/core';
 import { IonicPageModule }				from 'ionic-angular';
-import { TypeORMPage }					from './typeorm';
+import { ListPage }						from './list';
 
 @NgModule({
 	declarations: [
-		TypeORMPage,
+		ListPage,
 	],
 	imports: [
-		IonicPageModule.forChild(TypeORMPage),
+		IonicPageModule.forChild(ListPage),
 	],
 	exports: [
-		TypeORMPage
+		ListPage
 	]
 })
-export class TypeORMPageModule { }
+export class ListPageModule { }
