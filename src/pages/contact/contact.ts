@@ -5,13 +5,15 @@ import { NavController }				from 'ionic-angular';
 
 @IonicPage()
 @Component({
-  selector: 'page-contact',
-  templateUrl: 'contact.html'
+	selector: 'page-contact',
+	templateUrl: 'contact.html'
 })
 export class ContactPage {
+	constructor(public navCtrl: NavController) {
+		console.log('ContactPage::constructor')
+	}
 
-  constructor(public navCtrl: NavController) {
-
-  }
-
+	ionViewDidLoad() {
+		console.log('ContactPage::ionViewDidLoad')
+	}
 }

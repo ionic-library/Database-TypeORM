@@ -1,6 +1,8 @@
 {
-  "name": "Database-TypeORM-Tutorial",
+  "name": "ionic-example",
   "app_id": "",
   "type": "ionic-angular",
-  "integrations": {}
+  "integrations": {
+    "cordova": {}
+  }
 }
