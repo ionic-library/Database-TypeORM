@@ -7,9 +7,9 @@ import { SplashScreen }					from '@ionic-native/splash-screen';
 
 import { createConnection }				from 'typeorm';
 
-import { Author }						from '../entities/author';
-import { Category }						from '../entities/category';
-import { Post }							from '../entities/post';
+import { Post }							from '../blocks/typeorm/entities/post';
+import { Category }						from '../blocks/typeorm/entities/category';
+import { Author }						from '../blocks/typeorm/entities/author';
 
 @Component({
 	templateUrl: 'app.html'
